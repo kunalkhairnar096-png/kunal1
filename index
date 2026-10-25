@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polo App - Gay Dating & Connections</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #fff;
+            color: #6c5ce7;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #dfe6e9;
+        }
+        container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .feature-card h3 {
+            margin-bottom: 10px;
+            color: #6c5ce7;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2d3436;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Polo App</h1>
+        <p>Instant Match, Verified Profiles & Safe Connections</p>
+        <a href="https://play.google.com/store/apps/details?id=com.polo.dating&hl=en_IN" class="btn" target="_blank">Download on Google Play</a>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center;">Key Features</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>⚡ Instant Match</h3>
+                <p>Chat directly with other men with no endless swiping required.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🛡️ Safe & Verified</h3>
+                <p>Profiles are screen-verified with selfie checks to keep the community secure.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎥 Video & Audio</h3>
+                <p>Build trust and connect face-to-face before you meet.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Polo App. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
